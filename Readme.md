@@ -1,7 +1,8 @@
 # Личный проект «Седона»
 
 * Студент: [Сергей Резник](https://up.htmlacademy.ru/htmlcss/39/user/262461).
-* Наставник: [Ольга Тюлихова] (https://htmlacademy.ru/profile/id523263)
+* Наставник: [Ольга Тюлихова] (https://htmlacademy.ru/profile/id523263).
+* Сайт: [Седона] (https://novize.github.io/262461-sedona-39/).
 
 ---
 
