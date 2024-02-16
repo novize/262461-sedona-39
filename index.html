@@ -3,6 +3,7 @@
 
   <head>
     <meta charset="utf-8">
+    <link rel="stylesheet" href="styles/style.css">
     <title>Седона - Главная</title>
   </head>
 
@@ -17,11 +18,12 @@
           <li class="navigation-item"><a href="catalog.html" class="navigation-link">Гостиницы</a></li>
         </ul>
         <ul class="navigation-list navigation-user">
-          <li class="navigation-item"><a href="#" class="navigation-link"><span class="visually-hidden">Поиск</span></a>
+          <li class="navigation-item"><a href="#" class="navigation-link search"><span
+                class="visually-hidden">Поиск</span></a>
           </li>
-          <li class="navigation-item"><a href="#" class="navigation-link"><span
+          <li class="navigation-item"><a href="#" class="navigation-link heart"><span
                 class="visually-hidden">Избранное</span><span class="likes-count">12</span></a></li>
-          <li class="navigation-item"><a href="#" class="navigation-link">Хочу сюда!</a></li>
+          <li class="navigation-item"><a href="#" class="navigation-link header-button">Хочу сюда!</a></li>
         </ul>
       </nav>
     </header>
@@ -69,7 +71,7 @@
                 <h3 class="item-description-title">Там есть мост дьявола</h3>
                 <p class="item-description">Да, по нему можно пройти! Если вы осмелитесь, разумеется</p>
               </div>
-              <img src="image/pictures/sedona-diablo-bridge.jpg" alt="" width="">
+              <img src="image/pictures/sedona-diablo-bridge.jpg" alt="Мост дьявола в Седоне" width="800" height="385">
             </li>
           </ul>
         </div>
@@ -103,19 +105,19 @@
           <p class="choice-title">Заинтересовались</p>
           <p class="choice-text">Укажите предполагаемые даты поездки, и мы покажем вам лучшие предложения гостиниц в
             Седоне</p>
-          <a href="" class="choice-link">ПОИСК ГОСТИНИЦЫ В седоне</a>
+          <a href="catalog.html" class="choice-link">Поиск гостиницы в Седоне</a>
         </div>
       </section>
     </main>
 
     <footer data-test="footer">
-      <section class="subscribe" data-test="subscribe">
+      <section class="subscribe index-subscribe-background" data-test="subscribe">
         <h2 class="visually-hidden">Подписка</h2>
         <div class="subscribe-items">
           <p class="subscribe-title">Подпишитесь на рассылку</p>
           <p class="subscribe-text">Только полезная информация и никакого спама, честное бойскаутское!</p>
           <form action="https://echo.htmlacademy.ru/" method="post">
-            <label class="visually-hidden" for="main-subscribe">Подписаться</label>
+            <label for="main-subscribe" class="visually-hidden">Подписаться</label>
             <input class="subscribe-box" id="main-subscribe" type="email" name="email-box" placeholder="Ваш e-mail"
               required>
             <button class="subscribe-button" type="submit">Подписаться</button>
@@ -123,16 +125,16 @@
         </div>
       </section>
 
-      <section>
+      <section class="footer-items">
         <h2 class="visually-hidden">Социальные сети и контакты</h2>
 
         <ul class="footer-social-list">
-          <li class="footer-social-item"><a href="https://vk.com/htmlacademy" class="footer-social-link"><span
+          <li class="footer-social-item"><a href="https://vk.com/htmlacademy" class="footer-social-link vk"><span
                 class="visually-hidden">ВКонтакте</span></a></li>
-          <li class="footer-social-item"><a href="https://t.me/htmlacademy" class="footer-social-link"><span
+          <li class="footer-social-item"><a href="https://t.me/htmlacademy" class="footer-social-link tg"><span
                 class="visually-hidden">Телеграмм</span></a></li>
           <li class="footer-social-item"><a href="https://www.youtube.com/user/htmlacademyru"
-              class="footer-social-link"><span class="visually-hidden">Ютьюб</span></a></li>
+              class="footer-social-link"><span class="visually-hidden youtube">Ютьюб</span></a></li>
         </ul>
         <a class="footer-contacts-address-phone" href="tel:+78128121212">+7 (812) 812-12-12</a>
         <a href="https://htmlacademy.ru/" class="footer-logo"><img src="image/svg/logo-html-academy.svg"
