@@ -1,8 +1,7 @@
-<svg width="16" height="14" viewBox="0 0 16 14" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M4 0H0V6H4V0Z" fill="black"/>
-<path d="M16 0H12V6H16V0Z" fill="black"/>
-<path d="M10 0H6V6H10V0Z" fill="black"/>
-<path d="M4 8H0V14H4V8Z" fill="black"/>
-<path d="M16 8H12V14H16V8Z" fill="black"/>
-<path d="M10 8H6V14H10V8Z" fill="black"/>
+<svg width="16.000000" height="14.000000" viewBox="0 0 16 14" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<desc>
+			Created with Pixso.
+	</desc>
+	<defs/>
+	<path d="M0 0L4 0L4 6L0 6L0 0ZM10 0L6 0L6 6L10 6L10 0ZM12 0L16 0L16 6L12 6L12 0ZM0 8L4 8L4 14L0 14L0 8ZM6 8L10 8L10 14L6 14L6 8ZM16 8L12 8L12 14L16 14L16 8Z" fill="#000000" fill-opacity="1.000000" fill-rule="evenodd"/>
 </svg>

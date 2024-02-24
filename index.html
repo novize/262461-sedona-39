@@ -11,8 +11,10 @@
     <div class="wrapper">
       <header class="page-header" data-test="header">
         <nav class="navigation">
-          <a href="index.html" class="navigation-logo" aria-current="page"><img src="image/svg/logo-sedona.svg"
-              alt="Логотип сайта Седона" width="140" height="70"></a>
+          <div class="navigation-logo-wrapper">
+            <a href="index.html" class="navigation-logo" aria-current="page"><img src="image/svg/logo-sedona.svg"
+                alt="Логотип сайта Седона" width="140" height="70"></a>
+          </div>
           <ul class="navigation-list navigation-links">
             <li class="navigation-item"><a href="index.html" class="navigation-link active">Главная</a></li>
             <li class="navigation-item"><a href="about.html" class="navigation-link">О Седоне</a></li>
@@ -24,7 +26,8 @@
             </li>
             <li class="navigation-item"><a href="#" class="navigation-link heart"><span
                   class="visually-hidden">Избранное</span><span class="likes-count">12</span></a></li>
-            <li class="navigation-item"><a href="#" class="navigation-link header-button">Хочу сюда!</a></li>
+            <li class="navigation-item navigation-user-button"><a href="#" class="navigation-link header-button">Хочу
+                сюда!</a></li>
           </ul>
         </nav>
       </header>
@@ -110,7 +113,8 @@
           <h2 class="visually-hidden">Поиск гостиницы</h2>
           <div class="choice">
             <p class="choice-title">Заинтересовались</p>
-            <p class="choice-text">Укажите предполагаемые даты поездки,<br> и мы покажем вам лучшие предложения гостиниц в
+            <p class="choice-text">Укажите предполагаемые даты поездки,<br> и мы покажем вам лучшие предложения гостиниц
+              в
               Седоне</p>
             <a href="catalog.html" class="choice-link">Поиск гостиницы в Седоне</a>
           </div>
@@ -122,8 +126,8 @@
           <h2 class="visually-hidden">Подписка</h2>
           <div class="subscribe-items">
             <p class="subscribe-title">Подпишитесь на рассылку</p>
-            <p class="subscribe-text">Только полезная информация и никакого спама, честное бойскаутское!</p>
-            <form action="https://echo.htmlacademy.ru/" method="post">
+            <p class="subscribe-text">Только полезная информация и никакого спама,<br> честное бойскаутское!</p>
+            <form class="subscribe-form" action="https://echo.htmlacademy.ru/" method="post">
               <label for="main-subscribe" class="visually-hidden">Подписаться</label>
               <input class="subscribe-box" id="main-subscribe" type="email" name="email-box" placeholder="Ваш e-mail"
                 required>
@@ -140,8 +144,7 @@
                   class="visually-hidden">ВКонтакте</span></a></li>
             <li class="footer-social-item"><a href="https://t.me/htmlacademy" class="footer-social-link tg"><span
                   class="visually-hidden">Телеграмм</span></a></li>
-            <li class="footer-social-item"><a href="https://www.youtube.com/user/htmlacademyru"
-                class="footer-social-link"><span class="visually-hidden youtube">Ютьюб</span></a></li>
+            <li class="footer-social-item"><a href="https://www.youtube.com/user/htmlacademyru" class="footer-social-link youtube"><span class="visually-hidden">Ютьюб</span></a></li>
           </ul>
           <a class="footer-contacts-address-phone" href="tel:+78128121212">+7 (812) 812-12-12</a>
           <a href="https://htmlacademy.ru/" class="footer-logo"><img src="image/svg/logo-html-academy.svg"
