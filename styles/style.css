@@ -1117,7 +1117,7 @@ body {
   width: 140px;
 }
 
-/* Резерв для 5-ти звездочного отеля
+/* Резерв для 5-ти звездочного отеля*/
 .five-stars {
   background-image: url(../image/svg/raiting-star-icon.svg),
                     url(../image/svg/raiting-star-icon.svg),
@@ -1127,7 +1127,7 @@ body {
   background-repeat: no-repeat, no-repeat, no-repeat, no-repeat, no-repeat;
   background-position: left 50%, 24px 50%, 48px 50%, 72px 50%, 96px 50%;
 }
-*/
+
 
 .four-stars {
   background-image: url(../image/svg/raiting-star-icon.svg),
