@@ -91,6 +91,7 @@ body {
   display: flex;
   flex-direction: row;
   align-items: center;
+  margin: 0;
   padding: 0;
   padding-left: 44px;
 }
@@ -102,10 +103,6 @@ body {
 .navigation-links {
   flex-wrap: wrap;
   margin-right: auto;
-}
-
-.navigation-links .navigation-item {
-  margin-right: 32px;
 }
 
 .navigation-links .navigation-item:last-child {
@@ -130,6 +127,11 @@ body {
   color: #000000;
   text-transform: capitalize;
   text-decoration: none;
+}
+
+.navigation-links .navigation-link {
+  margin: 0;
+  padding: 20px 16px;
 }
 
 .search,
@@ -511,6 +513,7 @@ body {
   line-height: 24px;
   text-align: left;
   width: 452px;
+  padding: 14px 20px;
   border: none;
   outline: none;
   border-radius: 4px 0 0 4px;
@@ -1116,7 +1119,7 @@ body {
   width: 140px;
 }
 
-/* Резерв для 5-ти звездочного отеля
+/* Резерв для 5-ти звездочного отеля*/
 .five-stars {
   background-image: url(../image/svg/raiting-star-icon.svg),
                     url(../image/svg/raiting-star-icon.svg),
@@ -1126,7 +1129,7 @@ body {
   background-repeat: no-repeat, no-repeat, no-repeat, no-repeat, no-repeat;
   background-position: left 50%, 24px 50%, 48px 50%, 72px 50%, 96px 50%;
 }
-*/
+
 
 .four-stars {
   background-image: url(../image/svg/raiting-star-icon.svg),
