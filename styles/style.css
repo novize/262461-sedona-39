@@ -1023,7 +1023,7 @@ body {
   padding: 20px;
   margin: 0;
   list-style: none;
-  border: 1px solid rgb(230, 230, 230);
+  outline: 1px solid rgb(230, 230, 230);
   border-radius: 4px;
 }
 
@@ -1122,10 +1122,10 @@ body {
 /* Резерв для 5-ти звездочного отеля*/
 .five-stars {
   background-image: url(../image/svg/raiting-star-icon.svg),
-                    url(../image/svg/raiting-star-icon.svg),
-                    url(../image/svg/raiting-star-icon.svg),
-                    url(../image/svg/raiting-star-icon.svg),
-                    url(../image/svg/raiting-star-icon.svg);
+    url(../image/svg/raiting-star-icon.svg),
+    url(../image/svg/raiting-star-icon.svg),
+    url(../image/svg/raiting-star-icon.svg),
+    url(../image/svg/raiting-star-icon.svg);
   background-repeat: no-repeat, no-repeat, no-repeat, no-repeat, no-repeat;
   background-position: left 50%, 24px 50%, 48px 50%, 72px 50%, 96px 50%;
 }
@@ -1186,8 +1186,8 @@ body {
 /* Pagination */
 .pagination-list {
   display: grid;
-  grid-template-columns: repeat(6, 60px);
-  column-gap: 8px;
+  grid-template-columns: repeat(6, minmax(60px, max-content));
+  gap: 8px;
   margin: 0;
   margin-top: 40px;
   padding: 0;
@@ -1200,7 +1200,10 @@ body {
 }
 
 .pagination-link {
-  display: grid;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60px;
   font-size: 20px;
   font-weight: 700;
   line-height: 36px;
@@ -1209,12 +1212,8 @@ body {
   text-align: center;
   background-color: #82B3D3;
   margin: 0;
-  padding: 12px 23px;
+  padding: 0 24px;
   border-radius: 4px;
-}
-
-.pagination-link-two-simbols {
-  padding: 12px 19px;
 }
 
 .pagination-active {
@@ -1225,7 +1224,6 @@ body {
 .three-dots {
   font-size: 22px;
   line-height: 26px;
-  padding: 17px 21px;
   text-align: center;
   color: #000000;
   background-color: #FFFFFF;
