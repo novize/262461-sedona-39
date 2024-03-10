@@ -871,23 +871,6 @@ body {
   background: rgb(255, 255, 255);
 }
 
-.checkbox-button:checked + .checkbox-new-style {
-  background-image: url(../image/svg/checkbox-arrow.svg);
-  background-repeat: no-repeat;
-  background-position: center 6px;
-}
-
-.radio-batton:checked + .radio-new-style::after {
-  content: "";
-  position: absolute;
-  width: 10px;
-  height: 10px;
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%, -50%);
-  border-radius: 50%;
-  background-color: #000000;
-}
 
 .filter-row:hover .radio-new-style,
 .filter-row:hover .checkbox-new-style {
@@ -918,10 +901,27 @@ body {
   color: rgb(255, 255, 255, 0.2);
 }
 
+.checkbox-button:checked + .checkbox-new-style {
+  background-image: url(../image/svg/checkbox-arrow.svg);
+  background-repeat: no-repeat;
+  background-position: center 6px;
+}
+
+.radio-batton:checked + .radio-new-style::after {
+  content: "";
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+  background-color: #000000;
+}
+
 .radio-new-style {
   border-radius: 50%;
 }
-
 
 /* Конец стилизации input */
 
