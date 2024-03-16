@@ -291,10 +291,11 @@ body {
   background-color: #82B3D3;
 }
 
-.top-article img,
-.bottom-article img {
+.advantages-img {
+  max-width: 100%;
+  height: auto;
   -o-object-fit: cover;
-  object-fit: cover;
+     object-fit: cover;
 }
 
 .bottom-article {
@@ -338,7 +339,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  width: 230px;
+  min-width: 230px;
   padding: 102px 85px;
 }
 
