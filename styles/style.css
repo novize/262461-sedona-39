@@ -971,13 +971,13 @@ body {
   background: rgb(255, 255, 255, 0.2);
 }
 
-.checkbox-button:checked + .checkbox-new-style {
+.checkbox-button:checked+.checkbox-new-style {
   background-image: url("../image/svg/checkbox-arrow.svg");
   background-repeat: no-repeat;
   background-position: center 6px;
 }
 
-.radio-batton:checked + .radio-new-style::before {
+.radio-batton:checked+.radio-new-style::before {
   content: "";
   position: absolute;
   z-index: 2;
@@ -989,7 +989,7 @@ body {
   background-color: rgb(255, 255, 255, 0.6);
 }
 
-.radio-batton:checked + .radio-new-style::after {
+.radio-batton:checked+.radio-new-style::after {
   content: "";
   position: absolute;
   z-index: 3;
@@ -1002,10 +1002,15 @@ body {
   background-color: #000000;
 }
 
-.checkbox-button:disabled,
-.radio-batton:disabled {
+.checkbox-button:disabled:not(:checked)+.checkbox-new-style,
+.radio-batton:disabled:not(:checked)+.radio-new-style {
+  background-color: rgba(0, 0, 0, 0.3);
+  outline: none;
+}
+
+.checkbox-button:disabled:not(:checked)~.filter-checkbox,
+.radio-batton:disabled:not(:checked)~.filter-radio {
   color: rgba(0, 0, 0, 0.3);
-  border: 2px solid rgba(0, 0, 0, 0.3);
 }
 
 .radio-new-style {
@@ -2056,8 +2061,8 @@ body {
   background-repeat: no-repeat;
 }
 
-.tooltip:hover + .tooltip-text,
-.tooltip:focus + .tooltip-text {
+.tooltip:hover+.tooltip-text,
+.tooltip:focus+.tooltip-text {
   display: block;
 }
 
