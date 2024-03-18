@@ -1002,14 +1002,14 @@ body {
   background-color: #000000;
 }
 
-.checkbox-button:disabled:not(:checked)+.checkbox-new-style,
-.radio-batton:disabled:not(:checked)+.radio-new-style {
+.checkbox-button:disabled+.checkbox-new-style,
+.radio-batton:disabled+.radio-new-style {
   background-color: rgba(0, 0, 0, 0.3);
   outline: none;
 }
 
-.checkbox-button:disabled:not(:checked)~.filter-checkbox,
-.radio-batton:disabled:not(:checked)~.filter-radio {
+.checkbox-button:disabled~.filter-checkbox,
+.radio-batton:disabled~.filter-radio {
   color: rgba(0, 0, 0, 0.3);
 }
 
@@ -1203,6 +1203,11 @@ body {
 .apply:active {
   background-color: #68a2ca;
   color: rgba(255, 255, 255, 0.3);
+}
+
+.apply:disabled {
+  background-color: #e5e5e5;
+  color: #ffffff;
 }
 
 .reset {
